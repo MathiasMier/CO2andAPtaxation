@@ -31,3 +31,11 @@ Uncertainty analysis
 Ex-post analysis
 11) Find output files in "output_dynamic", find condensed output in "report_verysimple_dynamic" (via "euregen_rpt_3b.gms"), and some excel output in "excel_dynamic".
 12) There are some excel files to produce figures and tables. The sheets are normally linked with excel output (this needs to be done manually in the version provided).
+
+------------------------------------------------------------------------------------------------------------------------
+
+DICE
+1) Open .gms-file in GAMS and click run (no .bat-file).
+2) You can use different NLP solver (the model calls for IPOPT).
+3) The gdx-output contains different parameters and variables, among those scc are the social cost of carbon (in 2020-USD) used for further calculations.
+4) Changes in DICE/SCC demand for changes in database routine. Find database/data/socialcost_data and change SCC in there according to other DICE calibration.
